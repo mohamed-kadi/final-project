@@ -1,0 +1,253 @@
+/** import google fonts **/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,200&display=swap');
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+body, html {
+    background:rgb(108, 110, 82);
+    height: 100%;
+    width:100%;
+    /* overflow: hidden; */
+    background:linear-gradient(to left, rgb(103, 133, 216),rgb(103, 72, 161));
+   
+
+}
+
+
+.container {
+    display: grid;
+    justify-content:center;
+    
+    align-items: center;
+    width:100%;
+    height: 100%;
+    /*max-height:700px;*/
+    /*width:100%;*/
+    /*max-width: 700px;*/
+    margin: auto;  /*10px 50px 100px 250px*/
+    max-height:600px;
+    max-width:900px;
+    
+}
+/* .container.board {
+    display:grid;
+    width: 100%; 
+    height: 100%;
+} */
+
+.row {
+     
+    background-color:white;
+    border-radius: 10px;
+    border-width: 2%;  
+    margin:auto;
+       
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-left:10px;
+    margin-top:20px;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif; 
+    align-items: center;
+    margin-left:10px;
+    font-size: 20px;
+    box-shadow:2px;
+    
+}
+form {
+    max-width: 100%;
+    max-height: 90%;
+    margin-top:33%; 
+    margin-left:30%; 
+    
+}
+.btn {
+    background-color: rgb(127, 219, 255);
+    font-size: .9rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Kumbh Sans', sans-serif;
+    border: .5px;
+    border-radius:4rem;
+    padding: .5rem .5rem;
+    margin-top: 1.5rem;
+    box-shadow: 2px;  
+    margin-right: 4rem; 
+}
+
+form .form-info {
+    border: 1.2px solid rgb(13, 108, 231);
+    border-radius: .8rem;
+    padding: .8rem;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-right:2rem;  
+}
+
+/* .col-form {
+    background-color:rgb(195, 202, 216);
+    border-radius: 1rem; 
+    margin:2%;
+    border:1rem rgb(170, 11, 130)
+} */
+
+form .form-email {
+    border: none;
+    padding: .4rem;
+}
+
+form .form-password {
+    border: none;
+    padding: .4rem;
+    
+}
+form input:focus {
+    outline:none;
+    border: none;  
+}
+
+                                      /* about us page css */
+ .container.row {
+    background: transparent;
+ }
+.container.about-p {
+    max-height:500px;
+    margin-bottom:1rem;
+}                        
+
+    .logo-top {
+       margin-bottom: 20px;
+
+        
+    }
+    
+    nav.navbar-log {
+        border-radius:10%;
+    }
+    .logo-top img {
+        border-radius: 5rem; 
+      
+         /*center image logo */ 
+        display: block;
+        /* margin-top: */
+        margin-left: auto;
+        margin-right: auto;
+        width: 6%;
+    }
+    h1 {
+        /* display: block; */
+        margin: auto;
+        margin-left: auto ;
+        margin-right: auto;
+        margin-top: 2rem;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        
+        /* add some color and size to font */
+    }
+    p {
+        margin: auto;
+        margin-left: auto ;
+        margin-right: auto;
+        margin-top: 2rem;
+        text-align: center;
+        font-family:'Source Sans Pro', sans-serif;
+        color: rgb(184, 173, 173);
+        text-shadow: 2px;
+    }
+
+    /*Profiles styling*/
+        
+
+    .profile-box {
+    
+       display:block;
+       margin-left:auto;
+       margin-right: auto;
+       margin-bottom: 10px;
+      
+        
+
+       
+    }
+    .card {
+       /* overflow: hidden; */
+       border-radius:15px;
+       margin:auto;
+       align-items: center;
+       margin-top:120px;
+       text-align: center;
+       text-indent:10px;
+       border:none;
+       background: transparent;
+    }
+
+    .img1 img {
+        height:180px;
+        /* border-radius:15px; */
+        /* border-top-right-radius: 15px;
+        border-top-left-radius: 15px; */
+        width:120px;
+        height: 120px;
+        
+
+       
+    }
+    .img2 img {
+        position: relative;
+        display: inline-block;
+        margin-left:auto;
+        margin-right:auto;
+        z-index:1;
+        width:120px;
+        height:120px;
+        border-radius: 50%;
+        border: 4px solid rgb(195, 227, 220);
+        margin-top:-160px;  
+        
+
+    }
+
+  .profile-text h2{
+    font-size:medium;
+    text-align: center;
+    
+    
+  }
+   
+  .profile-text p {
+    text-align: center;
+    font-size: medium;
+    padding: 0 10px;
+    margin-top: .5rem;
+    
+    
+   
+  }
+  .row .col-md-4 {
+
+    border:none;
+    margin-top: 20px;
+
+
+  }
+  .row.index-p {
+    background-color: transparent;
+    
+  }
+  .socials {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+.socials i {
+    font-size: 20px;
+    color:rgb(85, 13, 13);
+   
+}
+
